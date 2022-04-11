@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family:  'Roboto', sans-serif;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 80%;
+}
+
+
+.lateral-padding {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.lateral-margin {
+    padding: 50px 20px;
+}
+
+
+
+main {
+    font-family: 'Telex', sans-serif;
+}
+
+h2 {
+    font-weight: 900 !important;
+    font-size: larger !important;
+    text-align: center;
+}
+
+strong {
+    color: #ffe72a;
+}
+
+
+.btn {
+    border-radius: 50px;
+    animation: 2s linear 1s infinite running pulse;
+    font-weight: 900;
+    font-size: medium;
+    border: 3px solid white;
+    box-shadow: 0px 0px 30px 0px rgb(182 193 5 / 80%)
+}
+
+#black-background {
+    background-color: #18191acb!important;
+}
+
+#black-background h2 {
+    color: #00FF00;
+    text-shadow: 0px 0px 10px rgb(28 255 0 / 63%);
+}
+
+
+.btn:hover {
+    transform: scale(1.05);
+    animation-play-state: paused;
+    
+    
+}
+
+
+.carousel-item img {
+    max-width: 100%;
+}
+
+#carouselExampleControls,
+.carouse-inner,
+.carousel-item {
+    min-height: 500px;
+}
+
+#carouselExampleControls img {
+    max-height: 500px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+   .media {
+      
+   } 
+}
+
+.box {
+   flex-direction: column;
+   text-align: center;
+}
+
+#black-background h2 {
+    font-size: x-large !important;
+}

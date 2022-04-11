@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  'Roboto', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 10px;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 68%;
+}
+
+main {
+    font-family: 'Telex', sans-serif;
+}
+
+h2 {
+    font-weight: 900 !important;
+    font-size: xx-large !important;
+    text-align: center;
+}
+
+#timer h3 {
+    font-size: xx-large !important;
+}
+
+strong {
+    color: #ffe72a;
+}
+
+
+.btn {
+    border-radius: 20px;
+    animation: 2s linear 1s infinite running pulse;
+}
+
+
+
+.btn:hover {
+    transform: scale(1.05);
+    animation-play-state: paused;
+    
+    
+}
+
+#carouselExampleControls,
+.carouse-inner,
+.carousel-item {
+    min-height: 500px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+}
+
+#carouselExampleControls img {
+    max-height: 500px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
