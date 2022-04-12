@@ -74,11 +74,11 @@ strong {
     max-width: 100%;
 }
 
-#carouselExampleControls,
+/* #carouselExampleControls,
 .carouse-inner,
 .carousel-item {
     min-height: 500px;
-}
+} */
 
 #carouselExampleControls img {
     max-height: 500px;
