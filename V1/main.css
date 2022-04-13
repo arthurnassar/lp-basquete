@@ -13,10 +13,7 @@ header {
     max-width: 1000px;
     margin: auto;
     padding: 30px 10px;
-    background-image: url(./assets/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 68%;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +21,7 @@ header {
 
 main {
     font-family: 'Telex', sans-serif;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: grey;
 }
 
 h2 {
